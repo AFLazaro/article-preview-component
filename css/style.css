@@ -157,6 +157,7 @@ body {
 /*** USER ***/
 .user-avatar__container {
     height: 4rem;
+    width: 4rem;
 }
 
 @media screen and (max-width: 740px) {
@@ -198,6 +199,10 @@ body {
 
 
 /*** SHARE ***/
+button {
+    border: none;
+}
+
 .share-container {
     display: flex;
     align-items: center;
@@ -243,7 +248,7 @@ body {
 }
 
 .icon-share {
-    transform: translate(40%, 40%);
+    /*transform: translate(40%, 40%);*/
     height: 1.5rem;
 
     transition: filter .5s ease;
